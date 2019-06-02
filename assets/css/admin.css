@@ -1,0 +1,145 @@
+/* mailmag-utility */
+.mailmag-display-none {
+	display: none;
+}
+
+.mailmag-linear {
+	background: linear-gradient(transparent 0, yellow 0);
+}
+
+.striped>tbody>.mailmag-reservation:nth-child(odd) {
+	background: #fffbda;
+}
+
+.striped>tbody>.mailmag-reservation:nth-child(even) {
+	background: #e4efff;
+}
+
+.mailmag-status-error {
+	color: #e81616;
+}
+
+.mailmag-status-worn {
+	color: #e89716;
+}
+
+.page-title-action.mailmag-page-title-action {
+	margin: 10px 0 0;
+	color: #bb0000;
+}
+
+.page-title-action.mailmag-page-title-action:hover {
+	margin: 10px 0 0;
+	color: #fff;
+	background: #bb0000;
+	border-color: #7b0000;
+}
+
+.page-title-action.mailmag-page-title-action:focus {
+	border-color: #bb0000;
+}
+
+/* メール詳細画面 */
+#mailmag-postbox {
+	margin-bottom: 0;
+}
+
+.mailmag-flexcontainer {
+	display: flex;
+}
+
+.mailmag-preview-wrapper {
+	border: 1px solid #888;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+.mailmag-flexbox-harf {
+	flex: 1 0 40%;
+}
+
+.mailmag-flexbox-harf:nth-child(2) {
+	margin-left: 10px;
+}
+
+.mailmag-scroll-box {
+	overflow-y: scroll;
+	max-height: 600px;
+}
+
+.mailmag-scroll-box table {
+	width: 100%;
+}
+
+.mailmag-scroll-box table tr:nth-child(odd) {
+	background: #f1f1f1;
+}
+
+.mailmag-scroll-box table th:first-child {
+	width: 140px;
+	text-align: left;
+}
+
+.mailmag-scroll-box table td:first-child {
+	width: 140px;
+}
+
+.mailmag-scroll-box table th:nth-child(2) {
+	width:140px;
+	text-align: left;
+}
+
+.mailmag-scroll-box table td:nth-child(2) {
+	width: 140px;
+}
+
+.mailmag-scroll-box table th:nth-child(3) {
+	width:80px;
+	text-align: left;
+}
+
+.mailmag-scroll-box table td:nth-child(3) {
+	width: 80px;
+}
+
+.mailmag-scroll-box table th:last-child {
+	text-align: left;
+}
+
+.mailmag-scroll-box table td:last-child {
+}
+
+.mailmag-error-text {
+	color: #ff0000;
+}
+
+@media only screen and (max-width: 850px) {
+	.mailmag-flexcontainer {
+		flex-direction: column;
+	}
+
+	.mailmag-flexbox-harf {
+		flex: 1 0 100%;
+	}
+
+	.mailmag-flexbox-harf:nth-child(2) {
+		margin-left: 0;
+	}
+}
+
+/* ユーザー一覧画面 */
+td.manage-column.mailmag-subscribing {
+	color: #555;
+}
+
+td.manage-column.mailmag-unsubscribe {
+	color: #ff0000;
+}
+
+td.manage-column.mailmag-admin-style {
+	color: #c77924;
+}
+
+th.mailmag-id-column.manage-column {
+	width: 50px;
+}
